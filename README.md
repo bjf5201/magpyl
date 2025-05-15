@@ -10,10 +10,13 @@
 - 🔍 Works entirely in the browser – no backend needed
 - ⚡ Fast, lightweight, and framework-agnostic
 - 🧩 Easily integrates with 11ty and other static site generators
-- 💡 Simple integration using a `<form>` and your content index
-- 🔧 Built in TypeScript - modern and type-safe
+- 🔒 Built in TypeScript - modern and type-safe
 
-## 🚀 Installation
+## 📒 Documentation
+
+Further documentation, examples, and 11ty plugins coming soon.
+
+### ⬇️ Installation
 
 ```bash
 pnpm add magpyl
@@ -31,17 +34,17 @@ or
 npm install magpyl
 ```
 
-## 🔧 Usage
+### 🔧 Usage
 
 ```ts
 import { createSearch } from "magpyl";
 ```
 
-<!-- @TODO: Check this after implementation -->
+<!-- @TODO: Check this after implementation & add more examples -->
 
-## HTML Integration
+### 📦 HTML Integration
 
-<!-- @TODO: Check this after implementation -->
+<!-- @TODO: Check this after implementation & add more examples -->
 
 ```html
 <form id="search-form">
@@ -66,20 +69,16 @@ import { createSearch } from "magpyl";
 </script>
 ```
 
-## 🧱 Generating the Search Index
+## 🔦 Generating the Search Index
 
-Generate a statis JSON index of your content using your static site generator. For now, this library is especially implemented for the [11ty Framework](https://11ty.dev). Future integration with other frameworks possible.
+Generate a static JSON index of your content using your static site generator. For now, this library is especially implemented for the [11ty Framework](https://11ty.dev). Future integration with other frameworks possible.
 
 <!-- @TODO: Finish these instructions on how to create 11ty collection or search.json -->
 
-## Documentation
-
-Further documentation, examples, and 11ty plugins coming soon.
-
 ## 🐦 Why "magpyl"?
 
-**Magpies** are famous for spotting and collecting shiny things. `magpyl` helps your users do just that — find the shiny stuff in your content that your users want the most!
+**Magpies** are famous for spotting and collecting shiny things. `magpyl` helps users on your site do just that — find the shiny stuff in your content that interests them the most!
 
-## License
+## 📄 License
 
 This project is licensed under the [MIT License](https://mit-license.org)
