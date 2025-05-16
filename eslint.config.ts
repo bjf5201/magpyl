@@ -13,6 +13,7 @@ export default unjs({
       '@typescript-eslint/no-unused-expressions': 'off',
       '@typescript-eslint/no-use-before-define': 'off',
       '@typescript-eslint/no-empty-object-type': 'off',
+      '@typescript-eslint/no-this-alias': 'off',
     },
   },
 });
